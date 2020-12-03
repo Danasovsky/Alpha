@@ -70,9 +70,9 @@ function onClickMenu(){
 // element
 
 let points = [
-  {x:660,y:300,a:0.7},
+  {x:660,y:290,a:0.7},
   {x:345,y:247,a:3.1},
-  {x:600,y:350,a:3.9},];
+  {x:600,y:260,a:3.9},];
 
 let r = 20;// the radius of rotation. In this case is a unique value. It may be a different value for every point
 let speed = 0.01;//the speed of rotation. In this case is a unique value. It may be a different value for every point 
