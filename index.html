@@ -20,47 +20,38 @@
     <body>
         
         <!-- header start -->
-        <div id="header" class="section">
-    
-           <h1>Motivation.</h1>
+        <div id="header" class="section, typewriter">
+            
+             <h1><a href="" class="typewrite" data-period="2000" data-type='[ "Motivation.", "Heart. Mind. Skills.", "Why web development?", "Why BeCode?" ]'>
+    <span class="wrap"></span>
+  </a></h1>
             
         </div>
         <!-- header end -->
         
         <!-- menu icon start -->
      
-        <div class="container" onclick="myFunction(this), changeColor()">
+        <div class="container" onclick="myFunction(this)">
           <div class="menu"><p>menu</p></div>
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
         </div>
-
+  
+  
         <script>
          function myFunction(x) {
           x.classList.toggle("change");
          }
-         
-         var place =0;
-        function changeColor() {
-            // your color list
-            var colorList = ["#ff6714","#3c07d1"];
-            // set the color
-            document.body.style.backgroundColor = colorList[place]; 
-            place++;
-            // if place is greater than the list size, reset
-            if (place ===colorList.length) place=0; 
-         
-            } 
-              
-       
-            
-            
         </script>
-        
     
-        
         <!-- menu icon end -->
+        
+        <!-- background element start -->
+        
+        <div class="element"></div>
+        
+        <!-- background element end -->
         
         
       
