@@ -32,9 +32,12 @@ body {
 #menu{
     display: inline-block;
     cursor: pointer;
-    position: absolute;
     top: 8%;
     left: 90%;
+    transform: translateX(-50%) translateY(-50%)
+    position: relative;
+    top: 8%;
+    right: 55%
     transform: translateX(-50%) translateY(-50%)
 }
 
