@@ -111,9 +111,7 @@ body {
 polygon {
     fill: #d7cdc9;
     transform: scale(2,2);
-    transform: translateX(-10%) translateY(25%)
+    transform: translateX(0%) translateY(25%)
 }
-polygon:hover {
-  color: ##f36305;
-}
+
 
