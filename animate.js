@@ -48,7 +48,7 @@ var TxtType = function(el, toRotate, period) {
             if (toRotate) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
-        }
+        };
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
@@ -70,18 +70,20 @@ function onClickMenu(){
 // element
 
 let points = [
-  {x:660,y:290,a:0.7},
-  {x:345,y:247,a:3.1},
-  {x:600,y:260,a:3.9},];
+  {x:675,y:161,a:.7},
+  {x:345,y:147,a:2.1},
+  {x:500,y:10,a:3.9},
+  {x:500,y:270,a:5.2}
+]
 
 let r = 20;// the radius of rotation. In this case is a unique value. It may be a different value for every point
-let speed = 0.01;//the speed of rotation. In this case is a unique value. It may be a different value for every point 
+let speed = .01;//the speed of rotation. In this case is a unique value. It may be a different value for every point 
 
 
 //get center rotation
 points.forEach(p=>{
   p.c = {};
-  let a = 18*Math.PI - p.a;//angle
+  let a = 2*Math.PI - p.a;//angle
   p.c.x = p.x + r*Math.cos(a);
   p.c.y = p.y + r*Math.sin(a);
 });
@@ -91,7 +93,7 @@ points.forEach(p=>{
 //resetPoints();
 
 function Frame(){
-  requestAnimationFrame(Frame);
+  requestAnimationFrame(Frame)
   points.forEach(p=>{
     p.a += speed;
     p.x = p.c.x + r*Math.cos(p.a);
@@ -108,7 +110,11 @@ Frame();
 function resetPoints(){
   let pts1 = `${points[0].x}, ${points[0].y} 
             ${points[1].x}, ${points[1].y} 
-            ${points[2].x}, ${points[2].y}`;
+            ${points[2].x}, ${points[2].y}`
+  let pts2 = `${points[0].x}, ${points[0].y} 
+            ${points[1].x}, ${points[1].y} 
+            ${points[3].x}, ${points[3].y}`
 
 a.setAttributeNS(null,"points",pts1);
+b.setAttributeNS(null,"points",pts2);
 }
