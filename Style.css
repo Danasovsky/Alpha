@@ -62,3 +62,7 @@ body {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+.changeColor {
+    transition: 10s;
+}
+
