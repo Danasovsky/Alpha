@@ -29,7 +29,7 @@
         
         <!-- menu icon start -->
      
-        <div class="container" onclick="myFunction(this)">
+        <div class="container" onclick="myFunction(this), changeColor()">
           <div class="menu"><p>menu</p></div>
           <div class="bar1"></div>
           <div class="bar2"></div>
@@ -40,9 +40,30 @@
          function myFunction(x) {
           x.classList.toggle("change");
          }
+         
+         var place =0;
+        function changeColor() {
+            // your color list
+            var colorList = ["#fb5304","#3c07d1"];
+            // set the color
+            document.body.style.backgroundColor = colorList[place]; 
+            place++;
+            // if place is greater than the list size, reset
+            if (place ===colorList.length) place=0; 
+         
+            } 
+              
+       
+            
+            
         </script>
         
+    
+        
         <!-- menu icon end -->
+        
+        
+      
     
     </body>
 </html>
