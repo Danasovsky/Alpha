@@ -85,6 +85,9 @@ body {
 	list-style: none;
 	line-height: 1.5px;
 	letter-spacing:1.5px;
+	position: relative;
+   	left: 55%;
+    	transform: translateX(-50%) translateY(-50%)
 	
 }
 .nav{
