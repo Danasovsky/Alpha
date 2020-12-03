@@ -7,8 +7,7 @@
         
         <!-- link to JS file -->
         <script type="text/javascript" src="animate.js"></script>
-        <link rel="script" href="animate.js"/>
-              
+        
         <!-- tab name -->
         <title>Motivation BeCode by Eline Danasovsky</title>
         
@@ -26,7 +25,7 @@
         <!-- header start -->
         <div id="header" class="section, typewriter">
             
-             <h1><a href="" class="typewrite" data-period="2000" data-type='[ "Motivation.", "Heart. Mind. Skills.", "Why web development?", "Why BeCode?" ]'>
+             <h1><a href="" class="typewrite" data-period="2000" data-type='[ "Motivation.", "Heart. Mind. Skills."]'>
     <span class="wrap"></span>
   </a></h1>
             
@@ -35,19 +34,23 @@
         
         <!-- menu icon start -->
      
-        <div class="container" onclick="myFunction(this)">
-          <div class="menu"><p>menu</p></div>
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
-  
-  
-        <script>
-         function myFunction(x) {
-          x.classList.toggle("change");
-         }
-        </script>
+        <div id="menu-bar">
+			<div id="menu" onclick="onClickMenu()">
+			    <div class="menutitle"><p>menu</p></div>
+				<div id="bar1" class="bar"></div>
+				<div id="bar2" class="bar"></div>
+				<div id="bar3" class="bar"></div>
+			</div>
+			<ul class="nav" id="nav">
+				<li><p class="left"><a href="#">Motivation.</a></p></li>
+				<li><p class="left"><a href="#">Why web development?</a></p></li>
+				<li><p class="left"><a href="#">Why BeCode?</a></p></li>
+				<li><p class="left"><a href="#">About.</a></p></li>
+				<li><p class="left"><a href="#">Contact.</a></p></li>
+			</ul>
+		</div>
+		<div class="menu-bg" id="menu-bg"></div>
+		<script src="script.js"></script>
     
         <!-- menu icon end -->
         
