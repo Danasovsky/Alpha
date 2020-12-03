@@ -110,7 +110,7 @@ body {
 
 polygon {
     fill: #d7cdc9;
-    transform: scale(1.5,1.5);
+    transform: scale(2,2);
     transform: translateX(-10%) translateY(25%)
 }
 polygon:hover {
