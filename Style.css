@@ -32,12 +32,9 @@ body {
 #menu{
     display: inline-block;
     cursor: pointer;
+    position: absolute;
     top: 8%;
-    left: 90%;
-    transform: translateX(-50%) translateY(-50%)
-    position: relative;
-    top: 8%;
-    right: 55%
+    left: 87%;
     transform: translateX(-50%) translateY(-50%)
 }
 
@@ -89,8 +86,8 @@ body {
 	line-height: 1.5px;
 	letter-spacing:1.5px;
 	position: relative;
-   	left: 55%;
-    	transform: translateX(-50%) translateY(-50%)
+    left: 55%;
+    transform: translateX(-50%) translateY(-50%);
 	
 }
 .nav{
@@ -107,5 +104,16 @@ body {
 .change{
 	display: block;
 	
+}
+
+/*element*/
+
+polygon {
+    fill: #d7cdc9;
+    transform: scale(1.5,1.5);
+    transform: translateX(-10%) translateY(25%)
+}
+polygon:hover {
+  color: ##f36305;
 }
 
