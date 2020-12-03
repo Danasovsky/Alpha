@@ -1,1 +1,11 @@
-font-family: 'Open Sans', sans-serif;
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18pt;
+    background-color: #3b08d0;
+    padding: 10px;
+    margin: 0;
+}
