@@ -2,15 +2,23 @@
 <html>
     <head>
         
+        <!-- link to CSS file -->
         <link rel="stylesheet" href="Style.css">
+        
+        <!-- tab name -->
         <title>Motivation BeCode by Eline Danasovsky</title>
         
+        <!-- font used -->
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        
+        <!-- menu icon -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
     </head>
     
     <body>
+        
         <!-- header start -->
         <div id="header" class="section">
     
@@ -18,6 +26,22 @@
             
         </div>
         <!-- header end -->
+        
+        <!-- menu icon start -->
+    
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <script>
+         function myFunction(x) {
+          x.classList.toggle("change");
+         }
+        </script>
+        
+        <!-- menu icon end -->
     
     </body>
 </html>
