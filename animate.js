@@ -48,7 +48,7 @@ var TxtType = function(el, toRotate, period) {
             if (toRotate) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
-        };
+        }
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
@@ -72,11 +72,10 @@ function onClickMenu(){
 let points = [
   {x:675,y:161,a:0.7},
   {x:345,y:147,a:2.1},
-  {x:500,y:10,a:3.9},
-]
+  {x:500,y:10,a:3.9},];
 
 let r = 20;// the radius of rotation. In this case is a unique value. It may be a different value for every point
-let speed = .01;//the speed of rotation. In this case is a unique value. It may be a different value for every point 
+let speed = 0.01;//the speed of rotation. In this case is a unique value. It may be a different value for every point 
 
 
 //get center rotation
@@ -109,7 +108,7 @@ Frame();
 function resetPoints(){
   let pts1 = `${points[0].x}, ${points[0].y} 
             ${points[1].x}, ${points[1].y} 
-            ${points[2].x}, ${points[2].y}`
+            ${points[2].x}, ${points[2].y}`;
 
 a.setAttributeNS(null,"points",pts1);
 }
