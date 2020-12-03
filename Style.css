@@ -28,9 +28,9 @@ body {
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    transform: translateX(-50%) translateY(-50%)
     top: 5%;
-    left: 90%;
+    left: 87%;
+    transform: translateX(-50%) translateY(-50%)
 }
 
 .bar1, .bar2, .bar3 {
