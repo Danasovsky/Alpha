@@ -143,5 +143,58 @@ polygon: hover {
         margin: 0;
 }       
     
+/*fwh-webdev layout*/
 
+.fwh-webdev {
+    height: 100vh;
+    background: #3b08d0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
 
+.fwh-webdev p{
+        margin: 0;
+}       
+    
+/*fwh-becode layout*/
+
+.fwh-becode {
+    height: 100vh;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.fwh-becode p{
+        margin: 0;
+}       
+    
+/*fwh-about layout*/
+
+.fwh-about {
+    height: 100vh;
+    background: #3b08d0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.fwh-about p{
+        margin: 0;
+}   
+
+/*fwh-contact layout*/
+
+.fwh-contact {
+    height: 100vh;
+    background: #3b08d0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.fwh-contact p{
+        margin: 0;
+}   
