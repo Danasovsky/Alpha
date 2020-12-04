@@ -11,7 +11,7 @@ body {
 
 * { color:#fff; 
     text-decoration: none;}
-
+    
 #header h1 {
     position: absolute;
     left: 50%;
@@ -26,6 +26,17 @@ body {
     letter-spacing: 1.5px;
     z-index:2;
 }
+    
+/*main section*/
+
+.fwh-main {
+    height: 100vh;
+    background: #3b08d0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
 
 /*menu icon*/
 
@@ -110,27 +121,27 @@ body {
 
 polygon {
     fill: #d7cdc9;
-    transform: scale(2,2);
-    transform: translateX(0%) translateY(25%)
+    transform: scale(1.5,1.5);
+    transform: translateX(-10%) translateY(25%)
+}
+polygon: hover {
+  color: ##f36305;
 }
 
-.parallax {
-  /* The image used */
-  background-color: #d7cdc9;
 
-  /* Full height */
-  height: 20%; 
+/*fwh-motivation layout*/
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.fwh-motivation {
+    height: 100vh;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    margin: 0;
+    
 }
 
-.style {
-    color: black;
-}
-
+.fwh-motivation p{
+        margin: 0;
+}       
+    
 
 
