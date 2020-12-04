@@ -5,7 +5,7 @@ body {
     font-size: 18pt;
     background-color: #3b08d0;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     margin: 0;
 }
 
@@ -127,3 +127,56 @@ polygon {
 polygon: hover {
   color: ##f36305;
 }
+
+
+/*fwh-motivation layout*/
+
+.fwh-motivation {
+    height: 100vh;
+    background: #d7cdc9;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+    
+/*fwh-webdev layout*/
+
+.fwh-webdev {
+    height: 100vh;
+    background: #3b08d0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.fwh-webdev p{
+        margin: 0;
+}       
+
+/*fwh-becode layout*/
+
+.fwh-becode {
+    height: 100vh;
+    background: #d7cdc9;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.fwh-becode p{
+        margin: 0;
+}       
+    
+/*fwh-about layout*/
+
+.fwh-about {
+    height: 100vh;
+    background: #3b08d0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.fwh-about p{
+        margin: 0;
+}   
+
